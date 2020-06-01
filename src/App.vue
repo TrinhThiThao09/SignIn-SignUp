@@ -1,28 +1,24 @@
 <template>
   <div id="app">
     <div id="nav">
-       <Header/>
-    
+      <Header />
     </div>
-    
-    
   </div>
 </template>
 <script>
-
-import Header from './views/Header';
+import Header from "./components/Header";
 export default {
-  name: 'App',
- components: {
-   Header,
- }
-}
+  name: "App",
+  components: {
+    Header,
+  },
+};
 </script>
-<style >
-*{ 
+<style>
+* {
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
- }
+}
 </style>
